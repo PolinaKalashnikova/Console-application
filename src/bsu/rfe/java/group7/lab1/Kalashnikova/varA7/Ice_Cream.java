@@ -4,7 +4,7 @@ public class Ice_Cream extends Food
 {
     private String sirup;
     public Ice_Cream(String sirup) {
-        super("Бургер");
+        super("Мороженое");
         this.sirup = sirup;
     }
     public void consume() {
