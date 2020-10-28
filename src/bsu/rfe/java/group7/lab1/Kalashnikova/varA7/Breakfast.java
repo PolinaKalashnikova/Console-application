@@ -14,6 +14,10 @@ public class Breakfast {
                 Cheese cheese = new Cheese();
                 cheese.consume();
                 sum++;}
+            else if (part[0].equals("Apple")){
+                Apple apple = new Apple(part[1]);
+                apple.consume();
+                sum++;}
             i++;
         }
         System.out.println("Количество съеденных продуктов:  " + sum);

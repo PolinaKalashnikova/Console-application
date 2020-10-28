@@ -5,6 +5,7 @@ public abstract class Food implements Consumable{
     public Food(String name){
         this.name = name;
     }
+
     public boolean equals(Object arg0) {
         if(!(arg0 instanceof Food))return false;
         if(name==null || ((Food)arg0).name==null) return false;
